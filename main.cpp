@@ -145,6 +145,7 @@ repText.setOutlineThickness(1);
             for (int i=num;i>0;--i)
      {s[i].x=s[i-1].x; s[i].y=s[i-1].y;}
             window.close();
+            over.stop();
             main();
         }
 
